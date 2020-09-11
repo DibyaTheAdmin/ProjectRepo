@@ -8,6 +8,7 @@ public class MyController {
 
 	@GetMapping("/api/hi")
 	public String returnHome() {
+		
 		return "home";
 	}
 }
